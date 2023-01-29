@@ -11,7 +11,7 @@
 """
 import os
 import re
-import bs4
+from bs4 import BeautifulSoup 
 import sys
 from loguru import logger
 import telegram.ext as tg
